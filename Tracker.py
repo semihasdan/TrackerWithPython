@@ -10,7 +10,7 @@ from discord_webhook import DiscordWebhook, DiscordEmbed
 from selenium.webdriver.common.by import By
 
 
-webhook_url = 'https://discord.com/api/webhooks/973857811928850442/l65X6LieJI5dpSGQ7FfvO1LiGyU6I7C4yplf0uqRkI5RQhiNTgq3qlt9mT7fnieCGs9I'
+webhook_url = 'https://discord.com/api/webhooks/973857811928850442/l65X6LieJI5dpSGQ7FfvO1LiGyU6I7C4yplf0'
 webhook = DiscordWebhook(
     url=webhook_url, content="The connection is successful")
 response = webhook.execute()
